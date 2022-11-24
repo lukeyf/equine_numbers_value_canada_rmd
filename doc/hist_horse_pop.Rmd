@@ -3,9 +3,9 @@ title: "Historical horse population in Canada"
 output: 
   html_document:
     toc: true
-bibliography: ../references.bib
+bibliography: references.bib
 params:
-  province: 'British Columbia'
+  province: 'Saskatchewan'
 ---
 
 ```{r setup, include=FALSE}
