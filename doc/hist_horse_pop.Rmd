@@ -56,7 +56,7 @@ We can see from the visualisation above that Ontario, Saskatchewan and Alberta h
 
 Next we look at the range of the number horses for each provinces at any time point between 1940 - 1972:
 
-```{r max horse table, caption = "Table 1. Canadian Provinces and House Humbers"}
+```{r max horse table, caption = "Table 1. Canadian Provinces and House Humbers", fig.cap = "CAPTION"}
 max_horses <- horse_pop %>% 
   select(GEO, Value) %>% 
   rename(Province = GEO) %>% 
